@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/caojohnny/KiCad/sam-bday-21/sam-bday-21.kicad_sch</source>
+    <date>Sunday, July 31, 2022 at 01:34:17 AM</date>
+    <tool>Eeschema (6.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Sam Bday 21 PCB</title>
+        <company>J. Cao</company>
+        <rev>v1</rev>
+        <date>2022-07-30</date>
+        <source>sam-bday-21.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>Battery:BatteryHolder_Keystone_2460_1xAA</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95184e87-b4af-46c8-b386-0dad0e39f506</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1e53ade-b81a-423b-b1e6-68bccf2d3fdd</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc96b964-fa82-4a15-900b-d4730bab7eee</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a23ed7e-d7e7-4f2e-9f7a-feab104163db</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c2719d5-a45b-45fd-b7a5-f4f112252950</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6646221-8f5b-43e9-a3b9-944c8a599971</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>EAST2012RA2</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2f4c81a-f1e2-4906-92b7-e2a7d71756c8</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>EAST2012RA2</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>916ec45d-78a1-406c-933c-b2fe8e93c0b4</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51e6a1bc-73b3-4732-8ffd-b28e4e2cd52e</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d59b1fa-d33e-444f-996d-e7da9f693f0a</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07944398-8cc6-4b3a-983e-34c093073129</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36ae70c7-0701-4672-b395-d14618e09e0a</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edb541c0-3361-4b59-8c9e-a1362da16ef5</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2434f4f-6adb-4731-a222-6f87ab047718</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9716fe8d-0fd9-49d6-8924-dc3a0d300759</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a2e13e2-dd5b-4f6f-885d-ef395276368c</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acf08654-18cb-449d-9133-c2ee77dffbe8</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97d27897-5b3f-452c-bb41-d3db81724c88</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e79ea5fa-e59e-48d0-afd3-7ee56829f11b</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9accc7a2-30e3-4f33-8240-8ae660794c1f</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06e88061-2456-499f-9255-563edd70e0e4</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f15ffdc5-79c2-4ead-b6bd-dd56ab2f7afb</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd64645c-defe-4b26-853d-dad37b3aa379</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73b2d2d1-382a-49f0-8ad9-8b48821a434a</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a42a6351-cf33-4092-b760-78b294715bf4</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>QBLP631-IW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12055d26-2abd-47c2-b7f5-d6d3acd512a1</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>4.7u</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a10859e1-8f40-40c4-a8ef-c6126dc76f8c</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>RE1C002UN</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93ce37dd-2368-4942-947a-cb577d077a6c</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>RE1C002UN</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1a776eb-63ae-4215-8258-9e2e1c299376</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>600R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>894c8dbf-3e86-4917-938f-038e1394c2ac</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>600R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d403826-567e-4418-a05e-08a0a8a19e12</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec1c5b73-fe0b-4c39-914e-923bb50e82a9</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae4e86c7-4f61-4104-bec3-a6ccb71f58f1</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca9ceecd-8cc3-4a8f-a38c-a9c43c02527a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a479ecf-da7a-40b4-9954-333d258d5e66</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6888c2d8-b3c3-417f-a011-a1dd6de06d9e</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7f75418-d044-48ce-addc-f0a1a4af2201</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2356deb-f03f-464a-a16e-38888cf12427</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5e393cb-c423-434e-9622-8702d8e16daf</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71978a14-5f95-4963-b4a2-ebd425ea2648</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bab87da-aecc-4d24-b473-50ac4b3e484d</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37442cf5-0858-4172-ba66-54c34bffacad</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6491e5fa-5cb7-4fad-8b6b-a3abfa301926</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84bb3828-f3da-41a1-adec-a9b31ddc2820</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0fc564f-3461-40f2-bbf4-900940481341</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c840052-8fc2-465d-90a7-2a9f1151410e</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cb6abee-d2f3-45ca-b89d-7baf647c635c</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>824f6cb9-4ecc-428c-b288-86163c03060b</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>469dea36-c699-4666-a7ef-bf1d95814842</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7560e20-4e77-4506-bfe4-7f335e0829e1</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>725a40f4-7faa-4c5c-877d-327970b7496f</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34996e7c-a712-44cd-bcf8-09b68510f108</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4ee8111-6850-43ee-bdc6-ccd3eb897325</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29428bf5-3938-4396-858a-a46a0a221bde</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>XC9141B50CMR-G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.torexsemi.com/file/xc9141/XC9141-XC9142.pdf</datasheet>
+      <libsource lib="sam-bday-21-lib" part="XC9141B50CMR-G" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf3e0d27-1d56-4297-b025-85f7fb9d2b90</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>NE555D</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <libsource lib="Timer" part="NE555D" description="Precision Timers, 555 compatible, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cb54513-9be4-4336-a853-58c8071b06e1</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>74AHC1GU04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AHC1GU04" description="74AHC1G04, Single NOT Gate, Low-Voltage CMOS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sam-bday-21.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0cb8d6c3-e08c-40f6-87b1-c43e793ed4b5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xGxx" part="74AHC1GU04">
+      <description>74AHC1G04, Single NOT Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74AHC1GU04</field>
+        <field name="Datasheet">http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="NE555D">
+      <description>Precision Timers, 555 compatible, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne555.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE555D</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ne555.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="sam-bday-21-lib" part="XC9141B50CMR-G">
+      <docs>https://www.torexsemi.com/file/xc9141/XC9141-XC9142.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XC9141B50CMR-G</field>
+        <field name="Datasheet">https://www.torexsemi.com/file/xc9141/XC9141-XC9142.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CE" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="BAT" type="power_in"/>
+        <pin num="4" name="VOUT" type="power_out"/>
+        <pin num="5" name="LX" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xGxx">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//74xGxx.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Timer">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Timer.kicad_sym</uri>
+    </library>
+    <library logical="sam-bday-21-lib">
+      <uri>/Users/caojohnny/KiCad/sam-bday-21/lib/sam-bday-21-lib.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U2" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/CE">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="CE" pintype="input"/>
+    </net>
+    <net code="3" name="/CV">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="4" name="/DIS">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="5" name="/LX">
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="LX" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/THR">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="THR" pintype="input"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="LED_L">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="Q" pintype="output"/>
+      <node ref="U3" pin="2" pintype="input"/>
+    </net>
+    <net code="9" name="LED_R">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pintype="output"/>
+    </net>
+    <net code="10" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="BAT" pintype="power_in"/>
+    </net>
+    <net code="11" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D9-Pad1)">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D11-Pad1)">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D12-Pad1)">
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D14-Pad1)">
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D15-Pad1)">
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D16-Pad1)">
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D17-Pad1)">
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D18-Pad1)">
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D19-Pad1)">
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D20-Pad1)">
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

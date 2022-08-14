@@ -1,0 +1,16 @@
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,DK P/N
+1,1,BT1,Battery_Cell,Device:Battery_Cell,Battery:BatteryHolder_Keystone_2460_1xAA,~,36-2460-ND
+2,5,"C1, C2, C3, C4, C5",10u,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,~,478-10766-1-ND
+3,2,"D1, D2",EAST2012RA2,Device:LED,LED_SMD:LED_0805_2012Metric,~,1080-EAST2012RA2CT-ND
+4,18,"D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20",QBLP631-IW,Device:LED,LED_SMD:LED_0805_2012Metric,~,1516-1085-1-ND
+5,1,L1,4.7u,Device:L_Small,Inductor_SMD:L_0805_2012Metric,~,CV201210-4R7KCT-ND
+6,2,"Q1, Q2",RE1C002UN,Device:Q_NMOS_GSD,Package_TO_SOT_SMD:SOT-89-3,~,RE1C002UNTCLCT-ND
+7,2,"R1, R2",620R,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RMCF0603FT620RCT-ND
+8,18,"R3, R4, R6, R7, R8, R9, R10, R11, R14, R15, R16, R17, R18, R19, R22, R23, R24, R25",330R,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,311-330HRCT-ND
+9,1,R5,10k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RMCF0603FT10K0CT-ND
+10,2,"R12, R13",100R,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RMCF0603FT100RCT-ND
+11,1,R20,1k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RNCP0603FTD1K00CT-ND
+12,1,R21,100k,Device:R_Small,Resistor_SMD:R_0603_1608Metric,~,RMCF0603FT100KCT-ND
+13,1,U1,XC9141B50CMR-G,sam-bday-21-lib:XC9141B50CMR-G,Package_TO_SOT_SMD:SOT-23-5,https://www.torexsemi.com/file/xc9141/XC9141-XC9142.pdf,893-1369-1-ND
+14,1,U2,NE555D,Timer:NE555D,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/ne555.pdf,296-35912-1-ND
+15,1,U3,74AHC1GU04,74xGxx:74AHC1GU04,Package_TO_SOT_SMD:SOT-353_SC-70-5,http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf,74AHC1GU04SE-7DICT-ND
